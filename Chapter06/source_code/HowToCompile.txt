@@ -4,8 +4,10 @@ How do I Compile Streams examples?
 g++ -I<PathToStreams>  Streams_first.cpp
 
 
-Eample
-  g++ -I./Streams-master/source Streams_First.cpp
+Example
+  g++ -o Streams_First -I./Streams-master/source Streams_First.cpp 
+  g++ -o Streams_Second -I./Streams-master/source Streams_Second.cpp 
+  g++ -o Streams_Third -I./Streams-master/source Streams_Third.cpp 
 
 
 How do I Compile Streamulus examples?
@@ -13,7 +15,7 @@ How do I Compile Streamulus examples?
 g++ -I<PathToStreamulus> -I<PathToBoost> Streamulus_first.cpp
 '
 
-Eample
+Example
   g++ -I"./Streamulus-master/src"  
       -I./boost_1_66_0/boost_1_66_0 streamulus_first.cpp
 
